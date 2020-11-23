@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1" package="QFN48" speed="5" partNumber="GW1N-LV1QN48C5/I4"/>
+    <FileList>
+        <File path="C:\Gowin\prj\uart_tester\src\top.v" type="verilog"/>
+        <File path="C:\Gowin\prj\uart_tester\src\tx_string.v.v" type="verilog"/>
+        <File path="C:\Gowin\prj\uart_tester\src\uart_tx2.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Gowin\prj\uart_tester\impl\gwsynthesis\uart_tester.vg"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

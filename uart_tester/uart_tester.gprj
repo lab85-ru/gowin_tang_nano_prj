@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1" pn="GW1N-LV1QN48C5/I4">gw1n1-005</Device>
+    <FileList>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/tx_string.v.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx2.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tester.cst" type="file.cst" enable="1"/>
+        <File path="src/uart_tester.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
