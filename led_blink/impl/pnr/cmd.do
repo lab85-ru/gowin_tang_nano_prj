@@ -1,0 +1,11 @@
+-d D:\CAD_HOME\PRJ\gowin-board\led_blink\led_blink\impl\gwsynthesis\led_blink.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst D:\CAD_HOME\PRJ\gowin-board\led_blink\led_blink\src\led_blink.cst
+-cfg D:\CAD_HOME\PRJ\gowin-board\led_blink\led_blink\impl\pnr\device.cfg
+-sdc D:\CAD_HOME\PRJ\gowin-board\led_blink\led_blink\src\led_blink.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
