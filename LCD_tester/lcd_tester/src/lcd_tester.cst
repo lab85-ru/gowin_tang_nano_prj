@@ -1,0 +1,26 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.07
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18
+//Created Time: Wed 10 19 23:03:39 2022
+
+IO_LOC "o_lcd_b" F14;
+IO_PORT "o_lcd_b" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_lcd_g" J16;
+IO_PORT "o_lcd_g" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_lcd_r" F13;
+IO_PORT "o_lcd_r" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_lcd_de" T14;
+IO_PORT "o_lcd_de" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_lcd_hs" R13;
+IO_PORT "o_lcd_hs" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_lcd_vs" P13;
+IO_PORT "o_lcd_vs" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_clk" R12;
+IO_PORT "o_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "i_reset" E15;
+IO_PORT "i_reset" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "i_clk" H11;
+IO_PORT "i_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
